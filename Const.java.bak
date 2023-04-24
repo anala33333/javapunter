@@ -1,0 +1,18 @@
+class Const
+
+{
+	int stdid;
+	double stdmarks;
+	Student(int a, double b)
+	{
+		stdid=a;
+		stdmarks=b;
+		return;
+	}
+	public static void main(String[] args) 
+	{
+		Const s=new Const(101, 86.66);
+        System.out.println(s.stdid);
+		System.out.println(s.stdmarks);
+	}
+}

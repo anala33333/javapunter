@@ -1,0 +1,15 @@
+abstract class demo
+{
+  abstract void some();
+}
+class Test extends demo
+{
+  static void some()
+  {
+    System.out.println("Hello world");
+  }
+  public static void main(String [] args)
+  {
+    some();
+  }
+}
